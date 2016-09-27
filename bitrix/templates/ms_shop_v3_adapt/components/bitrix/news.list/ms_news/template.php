@@ -23,6 +23,6 @@ if (count($arResult["ITEMS"]) < 1)
 	</div>
 </div>
 
-<a class="detail_picture fancybox" href="/images/sert54.jpg">
+<a class="detail_picture fancybox" href="/images/sert54.jpg"> 
 	<img border="0" src="/images/sert54.jpg" width="231" >
 </a>
