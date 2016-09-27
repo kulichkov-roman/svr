@@ -21,6 +21,8 @@ $fields = CSite::GetByID(SITE_ID)->Fetch();
 	<?$isContacts = CSite::InDir(SITE_DIR.'contacts/');?>
 	<?$issale = CSite::InDir(SITE_DIR.'sale/index.php');?>
 	<?$isAdv = CSite::InDir(SITE_DIR.'catalog/sale/') || CSite::InDir(SITE_DIR.'catalog/hit/') || CSite::InDir(SITE_DIR.'catalog/recommend/') || CSite::InDir(SITE_DIR.'catalog/new/') || CSite::InDir(SITE_DIR.'company/') || CSite::InDir(SITE_DIR.'info/') || CSite::InDir(SITE_DIR.'personal/index.php') || CSite::InDir(SITE_DIR.'personal/profile/') || CSite::InDir(SITE_DIR.'help/');?>
+	<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/developers.css');?>
+	<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/developers.js');?>
 </head>
 <body>
 	<?CIShop::SetJSOptions();?>
