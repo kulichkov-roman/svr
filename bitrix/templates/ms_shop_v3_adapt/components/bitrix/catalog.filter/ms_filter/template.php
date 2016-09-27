@@ -26,6 +26,6 @@ endforeach;*/?>
 		<div style="clear: both;"></div>
 	</div>
 </div>
-<a class="detail_picture fancybox" href="/upload/medialibrary/b08/%D1%81%D0%BA%D0%B0%D0%BD%20%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9.jpg">
-	<img border="0" src="/upload/medialibrary/b08/%D1%81%D0%BA%D0%B0%D0%BD%20%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9.jpg" width="231" >
+<a class="detail_picture fancybox" href="/images/sert54.jpg">
+	<img border="0" src="/images/sert54.jpg" width="231" >
 </a>
