@@ -13,12 +13,12 @@
 			"CHECK_DATES" => "Y",
 			"SHOW_OTHERS" => "N",
 			"PAGE" => $arParams["PAGE"],
-			"CATEGORY_0_TITLE" => GetMessage("CATEGORY_PRODU�TCS_SEARCH_NAME"),
+			"CATEGORY_0_TITLE" => 'Каталог',
 			"CATEGORY_0" => array(
-				0 => "iblock_#IBLOCK_CATALOG_TYPE#",
+				0 => "iblock_aspro_ishop_catalog",
 			),
-			"CATEGORY_0_iblock_#IBLOCK_CATALOG_TYPE#" => array(
-				0 => "#IBLOCK_CATALOG_ID#",
+			"CATEGORY_0_iblock_aspro_ishop_catalog" => array(
+				0 => "16",
 			),
 			"SHOW_INPUT" => "N",
 			"INPUT_ID" => "title-search-input",
@@ -33,7 +33,7 @@
 			"PREVIEW_WIDTH" => "50",
 			"PREVIEW_HEIGHT" => "50",
 			"CONVERT_CURRENCY" => "N"
-			),
+		),
 			false,
 			array("ACTIVE_COMPONENT" => "Y")
 		);?>
