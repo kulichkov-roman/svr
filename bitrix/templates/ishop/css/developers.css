@@ -42,3 +42,7 @@
 .shop_description {
     margin-left: 14px!important;
 }
+
+ul.menu li .child ul li a {
+    font-size: 10.25pt !important;
+}
