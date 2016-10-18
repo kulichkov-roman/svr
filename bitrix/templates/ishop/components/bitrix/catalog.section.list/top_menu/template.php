@@ -1,7 +1,7 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 <?$this->setFrameMode(true);?>
 <?
-	$hideGroups = true;
+	$hideGroups = false;
 	if (!strlen($arParams["MAX_CATALOG_GROUPS_COUNT"])) { $maxCount = 5; }
 	elseif ($arParams["MAX_CATALOG_GROUPS_COUNT"]==0) { $hideGroups = false; }
 	else { $maxCount =  $arParams["MAX_CATALOG_GROUPS_COUNT"]; }	
