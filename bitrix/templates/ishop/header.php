@@ -46,9 +46,9 @@ $fields = CSite::GetByID(SITE_ID)->Fetch();
 						"CACHE_TYPE" => "A",
 						"CACHE_TIME" => "3600",
 						"CACHE_GROUPS" => "Y",
-						"VK" => "http://vkontakte.ru/aspro74",
-						"FACE" => "http://www.facebook.com/aspro74",
-						"TWIT" => "http://twitter.com/aspro_ru",
+						"VK" => "https://vk.com/club131506426",
+						"FACE" => "",
+						"TWIT" => "",
 					),
 					false
 				);?> 
