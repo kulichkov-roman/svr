@@ -8,6 +8,7 @@ CJSCore::Init(array("fx"));
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_DIR?>favicon.ico" />
+	<meta name="yandex-verification" content="df67ffd6f6c2e00f" />
 
 	<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery-1.8.3.min.js");?>
 
